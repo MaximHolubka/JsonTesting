@@ -12,9 +12,9 @@
 
 @property (strong, nonatomic) NSDictionary *json;
 
-//@end
+@end
 
-//@implementation JSONPath
+@implementation JSONPath
 
 #pragma mark - Public Metods
 
