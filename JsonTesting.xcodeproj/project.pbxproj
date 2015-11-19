@@ -12,9 +12,9 @@
 		F1EAC0111BCF90B100381F48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1EAC0101BCF90B100381F48 /* Assets.xcassets */; };
 		F1EAC0141BCF90B100381F48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1EAC0121BCF90B100381F48 /* LaunchScreen.storyboard */; };
 		F1EAC01F1BCF90B100381F48 /* JsonTestingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC01E1BCF90B100381F48 /* JsonTestingTests.m */; };
-		F1EAC0311BCF92FA00381F48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC0301BCF92FA00381F48 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
-		F1EAC0351BCF930A00381F48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC0341BCF930A00381F48 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		F1EAC0381BCF939B00381F48 /* JSONPath.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC0371BCF939B00381F48 /* JSONPath.m */; settings = {ASSET_TAGS = (); }; };
+		F1EAC0311BCF92FA00381F48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC0301BCF92FA00381F48 /* ViewController.m */; };
+		F1EAC0351BCF930A00381F48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC0341BCF930A00381F48 /* AppDelegate.m */; };
+		F1EAC0381BCF939B00381F48 /* JSONPath.m in Sources */ = {isa = PBXBuildFile; fileRef = F1EAC0371BCF939B00381F48 /* JSONPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -385,6 +385,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JsonTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = thinkmobiles.com.JsonTesting;
@@ -396,6 +397,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JsonTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = thinkmobiles.com.JsonTesting;
@@ -446,6 +448,7 @@
 				F1EAC0251BCF90B100381F48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1EAC0261BCF90B100381F48 /* Build configuration list for PBXNativeTarget "JsonTestingTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +457,7 @@
 				F1EAC0281BCF90B100381F48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
